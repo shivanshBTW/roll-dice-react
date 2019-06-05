@@ -1,0 +1,13 @@
+.RollDice-dice div {
+  display: inline !important;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  font-size: 16px;
+  color: white;
+  border: darkblue solid 3px;
+}
