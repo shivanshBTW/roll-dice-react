@@ -2,7 +2,7 @@
   display: inline !important;
 }
 
-button {
+.RollDice button {
   height: 50px;
   width: 100px;
   border-radius: 5px;
@@ -10,4 +10,8 @@ button {
   font-size: 16px;
   color: white;
   border: darkblue solid 3px;
+}
+
+.RollDice button:hover {
+  background-color: rgba(0, 0, 255, 0.808);
 }

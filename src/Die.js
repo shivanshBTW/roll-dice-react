@@ -33,7 +33,7 @@ export default class Die extends Component {
   render() {
     return (
       <div className="Die">
-        <i className={`fas fa-dice-${this.numToWords()}`} />
+        <i className={`fas fa-dice-${this.numToWords()} ${this.props.isRolling}`} />
         {/* {this.numToWords} */}
       </div>
     );
